@@ -31,7 +31,6 @@ $ cp .env.sample .env
 ④.envファイルの編集
 ・上記で作成した.envファイルの11行目以降を下記に編集。
 DB_CONNECTION=mysql
-# DB_HOST=127.0.0.1
 DB_HOST=laravel_db
 DB_PORT=3306
 DB_DATABASE=laravel_db
