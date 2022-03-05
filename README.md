@@ -10,11 +10,40 @@ You can also user information bouwsing,and user information editing.
 
 # Usage
 ##github
-任意のローカルリポジトリを作成し、下記コマンドを実行
 ①ローカルリポジトリにクローンを作成。
-$git clone https://github.com/masanob0213/Connect.inc.git
+任意のローカルリポジトリを作成し、下記コマンドを実行
+$git clone https://github.com/masanob0213/Connect.inc.git.
+
 ②.envファイルを作成
+・ローカルリポジトリに移動
+$cd ローカルリポジトリ
+・DockerPracticeディレクトリに移動
+$ cd DockerPractice
+・appコンテナに入る。
+$ winpty docker-compose exec app bash
+・プロジェクトに移動
+$cd userapp
+env.sampleから.envを作成
 $ cp .env.sample .env
+③.envファイルの編集
+・上記で作成した.envファイルの11行目以降を下記に編集。
+DB_CONNECTION=mysql
+# DB_HOST=127.0.0.1
+DB_HOST=laravel_db
+DB_PORT=3306
+DB_DATABASE=laravel_db
+DB_USERNAME=laravel_user
+DB_PASSWORD=laravel_pass
+③マイグレーションの実行
+・appコンテナに入る。
+$ winpty docker-compose exec app bash
+・laravelプロジェクトに移動
+$ cd userapp/
+・マイグレーション実行
+$ php artisan migrate
+
+
+
 ##Docker
 ①Dockerの
 
