@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +18,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('auth.login');
 });
+//ユーザー情報ページ
+Route::get('/user', [UserController::class, 'index'])->middleware('auth');
+//ユーザー情報編集ページ
+Route::get('/user/edit', [UserController::class, 'edit'])->middleware('auth');
+Route::post('/user/edit', [UserController::class, 'completion'])->middleware('auth');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
