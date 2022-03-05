@@ -8,13 +8,15 @@ This tool is can be used by user register.
 This tool has user register function and login function.
 You can also user information bouwsing,and user information editing.
 
-# Usage
-##github
-①ローカルリポジトリにクローンを作成。
+#Usage
+
+
+# Install
+②ローカルリポジトリを作成し、クローンする。
 任意のローカルリポジトリを作成し、下記コマンドを実行
 $git clone https://github.com/masanob0213/Connect.inc.git.
 
-②.envファイルを作成
+③.envファイルを作成
 ・ローカルリポジトリに移動
 $cd ローカルリポジトリ
 ・DockerPracticeディレクトリに移動
@@ -25,7 +27,8 @@ $ winpty docker-compose exec app bash
 $cd userapp
 env.sampleから.envを作成
 $ cp .env.sample .env
-③.envファイルの編集
+
+④.envファイルの編集
 ・上記で作成した.envファイルの11行目以降を下記に編集。
 DB_CONNECTION=mysql
 # DB_HOST=127.0.0.1
@@ -34,7 +37,10 @@ DB_PORT=3306
 DB_DATABASE=laravel_db
 DB_USERNAME=laravel_user
 DB_PASSWORD=laravel_pass
+
 ③マイグレーションの実行
+・上記で作成したリモートリポジトリに移動
+$ cd リモートリポジトリ
 ・appコンテナに入る。
 $ winpty docker-compose exec app bash
 ・laravelプロジェクトに移動
@@ -42,105 +48,32 @@ $ cd userapp/
 ・マイグレーション実行
 $ php artisan migrate
 
+④コンテナの立ち上げ
+・上記で作成したリモートリポジトリに移動
+$ cd リモートリポジトリ
+・イメージ作成
+$ docker-compose build
+・コンテナを起動
+$ docker-compose up -d
 
-
-##Docker
-①Dockerの
+⑤動作確認
+http://localhost/
+にアクセスし、ログイン画面が表示されること
 
 # Requirement
 Laravel 8.83.3
 Docker Desktop 4.5.1
 MySQL 5.7.37
-
-# Installation
-
-Requirementで列挙したライブラリなどのインストール方法を説明する
-
-```bash
-pip install huga_package
-```
-
-
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
-
-# Note
+PHPMyAdmin：5
 
 # Author
 * M.Ohmori
 * okd_ohmori@outlook.com
 
 # License
-ライセンスを明示する
+https://choosealicense.com/no-permission/
 
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
-社内向けなら社外秘であることを明示してる
-
-"hoge" is Confidential.
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
 59
 # Name（リポジトリ/プロジェクト/OSSなどの名前）
  
