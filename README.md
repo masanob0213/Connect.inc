@@ -1,16 +1,25 @@
-# Name
-userapp
+# userApp
+このアプリケーションは、ユーザー登録することにより、使用することができます。
+This tool is can be used by user register.
 
-# Overview
-ユーザー登録・ログイン機能を持ち、ユーザー情報の確認・修正が可能。
+# Description
+まず、ユーザー登録、またはログインします。
+そして、ユーザー情報を閲覧・編集することができます。
+This tool has user register function and login function.
+You can also user information bouwsing,and user information editing.
 
-# DEMO
+# Usage
+##github
+任意のローカルリポジトリを作成し、下記コマンドを実行
+①ローカルリポジトリにクローンを作成。
+$git clone https://github.com/masanob0213/Connect.inc.git
+②.envファイルを作成
+$ cp .env.sample .env
+##Docker
+①Dockerの
 
-![image](https://user-images.githubusercontent.com/90172942/156888703-d7fd8b76-8bb9-4830-8bdf-7c9a62e1deab.png)
 
-# Features
 
-"hoge"のセールスポイントや差別化などを説明する
 
 # Requirement
 
@@ -25,7 +34,6 @@ Requirementで列挙したライブラリなどのインストール方法を説
 pip install huga_package
 ```
 
-# Usage
 
 DEMOの実行方法など、"hoge"の基本的な使い方を説明する
 
