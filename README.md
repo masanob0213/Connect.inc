@@ -6,11 +6,11 @@
 その後、ユーザー情報を閲覧・編集が可能になります。
 
 # Installation
-②ローカルリポジトリを作成し、クローンする。
+①ローカルリポジトリを作成し、クローンする。
 任意のローカルリポジトリを作成し、下記コマンドを実行
 $git clone https://github.com/masanob0213/Connect.inc.git.
 
-③.envファイルを作成
+②.envファイルを作成
 ・ローカルリポジトリに移動
 $cd ローカルリポジトリ
 ・DockerPracticeディレクトリに移動
@@ -22,8 +22,8 @@ $cd userapp
 env.sampleから.envを作成
 $ cp .env.sample .env
 
-④.envファイルの編集
-・上記で作成した.envファイルの11行目以降を下記に編集。
+③.envファイルの編集
+・上記で作成した.envファイルの11行目あたりを下記に編集。
 DB_CONNECTION=mysql
 DB_HOST=laravel_db
 DB_PORT=3306
@@ -31,7 +31,7 @@ DB_DATABASE=laravel_db
 DB_USERNAME=laravel_user
 DB_PASSWORD=laravel_pass
 
-③マイグレーションの実行
+④マイグレーションの実行
 ・上記で作成したリモートリポジトリに移動
 $ cd リモートリポジトリ
 ・appコンテナに入る。
@@ -41,7 +41,7 @@ $ cd userapp/
 ・マイグレーション実行
 $ php artisan migrate
 
-④コンテナの立ち上げ
+⑤コンテナの立ち上げ
 ・上記で作成したリモートリポジトリに移動
 $ cd リモートリポジトリ
 ・イメージ作成
@@ -49,7 +49,7 @@ $ docker-compose build
 ・コンテナを起動
 $ docker-compose up -d
 
-⑤動作確認
+⑥動作確認
 http://localhost/
 にアクセスし、ログイン画面が表示されること
 
