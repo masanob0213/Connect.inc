@@ -18,13 +18,10 @@ $ cp .env.sample .env
 ##Docker
 ①Dockerの
 
-
-
-
 # Requirement
-
-* huga 3.5.2
-* hogehuga 1.0.2
+Laravel 8.83.3
+Docker Desktop 4.5.1
+MySQL 5.7.37
 
 # Installation
 
