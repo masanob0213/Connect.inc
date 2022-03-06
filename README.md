@@ -44,6 +44,8 @@ $ php artisan migrate
 ⑤コンテナの立ち上げ
 ・上記で作成したリモートリポジトリに移動
 $ cd リモートリポジトリ
+・DockerPracticeディレクトリに移動
+$ cd DockerPractice
 ・イメージ作成
 $ docker-compose build
 ・コンテナを起動
@@ -67,8 +69,8 @@ PHPMyAdmin：5
 https://choosealicense.com/no-permission/
 
 # DEMO
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
- 
+ ![register](https://user-images.githubusercontent.com/90172942/156907778-2d0714dc-fde6-4565-b388-5a5d5a7f4adf.png)
+
 # Features
 "hoge"のセールスポイントや差別化などを説明する
 
