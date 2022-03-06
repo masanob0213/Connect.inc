@@ -76,11 +76,11 @@ gitbash 2.35
 
 # DEMO
 【初めて利用する方】  
-名前、電話番号、メールアドレス、パスワードを入力し、会員登録する。  
+名前、電話番号、メールアドレス、パスワードを入力し、会員登録する  
 ![register](https://user-images.githubusercontent.com/90172942/156915134-343e86ed-4914-4ab3-ac7e-067f1f20af70.png)
 
 【会員登録済の方】  
-メールアドレス、パスワードを入力しログインする。
+メールアドレス、パスワードを入力しログインする
 ![login](https://user-images.githubusercontent.com/90172942/156915193-db78d1f0-5bc5-44db-8681-49e8ee7c96e3.png)
 
 ・会員情報の表示  
@@ -93,7 +93,7 @@ gitbash 2.35
 ログイン画面より、「パスワードを忘れた方」をクリック  
 ![forgot-password](https://user-images.githubusercontent.com/90172942/156916081-8dea8c10-ca7f-4e62-800f-9ff9320433b7.png)  
 メールアドレスを入力し、「リンクを送信」をクリック  
-http://localhost:1080/　　
+http://localhost:1080/
 にアクセスし、届いたメールの「Reset Password」をクリック  
 ![mailcatcher](https://user-images.githubusercontent.com/90172942/156916212-5da9d6e4-0b36-4241-a47f-523b2e809e71.png)  
 メールアドレスと新しいパスワードを入力し「再設定」をクリック  
