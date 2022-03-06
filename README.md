@@ -67,11 +67,18 @@ PHPMyAdmin：5
 
 # License
 https://choosealicense.com/no-permission/
-![index](https://user-images.githubusercontent.com/90172942/156907790-663cc373-ec91-47ef-94a5-b1b610d76296.png)
 
-# DEMO![edit](https://user-images.githubusercontent.com/90172942/156907796-3b8f89d9-9699-4dbc-863e-54fc47ae45a5.png)
-
+# DEMO
+【初めて利用する方】
+名前、電話番号、メールアドレス、パスワードを入力し、会員登録する。
  ![register](https://user-images.githubusercontent.com/90172942/156907778-2d0714dc-fde6-4565-b388-5a5d5a7f4adf.png)
+ 【会員登録済の方】
+ メールアドレス、パスワードを入力しログインする。
+ ![login](https://user-images.githubusercontent.com/90172942/156907876-7a2924b8-25e4-4c63-8bfa-f14a9a2065dd.png)
+ ・会員情報の表示
+![index](https://user-images.githubusercontent.com/90172942/156907822-ed002b9f-a9df-4bb4-9a8a-de609e1afb5a.png)
+・会員情報の変更
+ ![edit](https://user-images.githubusercontent.com/90172942/156907796-3b8f89d9-9699-4dbc-863e-54fc47ae45a5.png)
 
 # Features
 "hoge"のセールスポイントや差別化などを説明する
