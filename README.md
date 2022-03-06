@@ -10,7 +10,6 @@
 任意のローカルリポジトリを作成し、下記コマンドを実行  
 $git clone https://github.com/masanob0213/Connect.inc.git.
 
-  
 ②.envファイルを作成  
 ・ローカルリポジトリに移動  
 $cd ローカルリポジトリ  
@@ -61,12 +60,7 @@ Laravel 8.83.3
 Docker Desktop 4.5.1  
 MySQL 5.7.37  
 PHPMyAdmin：5  
-
-# Author
-【NAME】 M.Ohmori  
-
-# License  
-https://choosealicense.com/no-permission/
+gitbash 2.35
 
 # DEMO
 【初めて利用する方】  
@@ -83,11 +77,9 @@ https://choosealicense.com/no-permission/
 ・会員情報の変更  
 ![edit](https://user-images.githubusercontent.com/90172942/156907796-3b8f89d9-9699-4dbc-863e-54fc47ae45a5.png)
 
-# Features
-"hoge"のセールスポイントや差別化などを説明する
+# Author
+【NAME】 M.Ohmori  
 
-# Usage
- DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-  
-# Note
-注意点などがあれば書く
+# License  
+https://choosealicense.com/no-permission/
+
