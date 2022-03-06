@@ -12,6 +12,7 @@
         padding-top: 20px;
     }
 
+
     .data-title {
         font-size: 25px;
         margin-bottom: 0px;
@@ -106,21 +107,19 @@
                     メールアドレス
                 </td>
                 <td>
-                    <input id="email" type="email" name="email" required autofocus />
+                    <input id="email" type="email" name="email" :value="old('email')" required autofocus />
                 </td>
             </table>
         </div>
         <div class=button>
             <button>
-                {{ __('リンクを送信') }}
+                リンクを送信
             </button>
             <div class="login-button">
                 <a href="login">
                     ログインに戻る
                 </a>
             </div>
-        </div>
-
     </form>
 </div>
 @endsection

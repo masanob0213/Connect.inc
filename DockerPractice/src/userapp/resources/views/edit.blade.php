@@ -66,13 +66,12 @@
 
   button {
     border-radius: 5px;
-    margin-top: 10px;
     font-weight: bold;
     font-size: 20px;
     color: #1F2937;
     border: 2px solid #1F2937;
     background-color: white;
-    padding: 5px 20px;
+    padding: 10px 40px;
     cursor: pointer;
     transition: 0.4s;
     white-space: nowrap;

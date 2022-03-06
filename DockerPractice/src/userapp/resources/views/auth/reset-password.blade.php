@@ -120,7 +120,6 @@
                 再設定
             </button>
         </div>
-
     </form>
 </div>
 @endsection

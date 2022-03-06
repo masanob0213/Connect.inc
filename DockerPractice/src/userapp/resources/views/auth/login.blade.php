@@ -100,7 +100,7 @@
                         メールアドレス
                     </td>
                     <td>
-                        <input id="email" type="email" name="email" :value="old('email')" required autofocus />
+                        <input id="email" type="email" name="email" required autofocus />
                     </td>
                 </tr>
                 <tr>
@@ -111,7 +111,8 @@
                     <td>
                         <input class=contents-input id="password" type="password" name="password" required autocomplete="current-password" />
                         <a href="{{ route('password.request') }}">
-                            {{ __('パスワードを忘れた方') }}
+                            パスワードを忘れた方
+                        </a>
                     </td>
                 </tr>
             </table>
