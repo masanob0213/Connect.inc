@@ -64,8 +64,8 @@ $ docker-compose up -d
 
 ⑥動作確認  
 http://localhost/  
-上記にアクセスし、ログイン画面が表示されること
-http://localhost:1080/
+上記にアクセスし、ログイン画面が表示されること  
+http://localhost:1080/  
 上記にアクセスし。MailCatcherが表示されること。
 
 # Requirement
