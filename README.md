@@ -30,6 +30,7 @@ DB_PORT=3306
 DB_DATABASE=laravel_db  
 DB_USERNAME=laravel_user  
 DB_PASSWORD=laravel_pass  
+  
 ・次に19行目あたりを下記に編集  
 BROADCAST_DRIVER=log  
 CACHE_DRIVER=file  
@@ -38,6 +39,7 @@ QUEUE_CONNECTION=sync
 #SESSION_DRIVER=file  
 SESSION_DRIVER=database  
 SESSION_LIFETIME=120  
+  
 ・次に33行目あたりを下記に編集  
 MAIL_MAILER=smtp  
 MAIL_HOST=mailcatcher  
