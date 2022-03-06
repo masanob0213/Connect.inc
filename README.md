@@ -89,7 +89,18 @@ gitbash 2.35
 ・会員情報の変更  
 ![edit](https://user-images.githubusercontent.com/90172942/156907796-3b8f89d9-9699-4dbc-863e-54fc47ae45a5.png)
 
+【パスワードを忘れた場合】  
+ログイン画面より、「パスワードを忘れた方」をクリック  
+![forgot-password](https://user-images.githubusercontent.com/90172942/156916081-8dea8c10-ca7f-4e62-800f-9ff9320433b7.png)  
+メールアドレスを入力し、「リンクを送信」をクリック  
+http://localhost:1080/　　
+にアクセスし、届いたメールの「Reset Password」をクリック  
+![mailcatcher](https://user-images.githubusercontent.com/90172942/156916212-5da9d6e4-0b36-4241-a47f-523b2e809e71.png)  
+メールアドレスと新しいパスワードを入力し「再設定」をクリック  
+![resetpassword](https://user-images.githubusercontent.com/90172942/156916247-1b4296b0-7626-4d50-b727-684ceb770d08.png)  
+ログイン画面に戻るので、メールアドレスと新たなパスワードでログイン
 # Author
+
 【NAME】 M.Ohmori  
 
 # License  
