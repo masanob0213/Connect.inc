@@ -7,7 +7,9 @@
 
 # Installation
 ①ローカルリポジトリを作成し、クローンする。
+
 任意のローカルリポジトリを作成し、下記コマンドを実行
+
 $git clone https://github.com/masanob0213/Connect.inc.git.
 
 ②.envファイルを作成
