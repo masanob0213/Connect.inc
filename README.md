@@ -13,7 +13,7 @@
 
 $git clone https://github.com/masanob0213/Connect.inc.git.
 
-
+  
 ②.envファイルを作成
 
 ・ローカルリポジトリに移動
