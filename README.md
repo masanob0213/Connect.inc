@@ -12,7 +12,9 @@ $git clone https://github.com/masanob0213/Connect.inc.git.
 
 ②.envファイルを作成  
 ・ローカルリポジトリに移動  
+```
 $cd ローカルリポジトリ  
+```
 ・DockerPracticeディレクトリに移動  
 $ cd DockerPractice  
 ・appコンテナに入る。  
