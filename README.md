@@ -66,7 +66,7 @@ $ docker-compose up -d
 http://localhost/  
 上記にアクセスし、ログイン画面が表示されること  
 http://localhost:1080/  
-上記にアクセスし。MailCatcherが表示されること。
+上記にアクセスし。MailCatcherが表示されること
 
 # Requirement
 Laravel 8.83.3  
