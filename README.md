@@ -39,7 +39,9 @@ $ winpty docker-compose exec app bash
 ・laravelプロジェクトに移動  
 $ cd userapp/  
 ・マイグレーション実行  
-$ php artisan migrate
+$ php artisan migrate  
+phpMyAdmin  
+http://127.0.0.1:8080/
 
 ⑤コンテナの立ち上げ  
 ・上記で作成したリモートリポジトリに移動  
