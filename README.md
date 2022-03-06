@@ -29,7 +29,16 @@ DB_HOST=laravel_db
 DB_PORT=3306  
 DB_DATABASE=laravel_db  
 DB_USERNAME=laravel_user  
-DB_PASSWORD=laravel_pass  
+DB_PASSWORD=laravel_pass   
+・次に33行目あたりを下記に編集
+MAIL_MAILER=smtp
+MAIL_HOST=mailcatcher
+MAIL_PORT=1025
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS=mailcatcher@example.com
+MAIL_FROM_NAME="${APP_NAME}"
 
 ④マイグレーションの実行  
 ・上記で作成したリモートリポジトリに移動  
@@ -55,12 +64,13 @@ $ docker-compose up -d
 
 ⑥動作確認  
 http://localhost/  
-にアクセスし、ログイン画面が表示されること
+上記にアクセスし、ログイン画面が表示されること
+http://localhost:1080/
+上記にアクセスし。MailCatcherが表示されること。
 
 # Requirement
 Laravel 8.83.3  
 Docker Desktop 4.5.1  
-MySQL 5.7.37  
 PHPMyAdmin：5  
 gitbash 2.35
 
@@ -68,7 +78,6 @@ gitbash 2.35
 【初めて利用する方】  
 名前、電話番号、メールアドレス、パスワードを入力し、会員登録する。  
 ![register](https://user-images.githubusercontent.com/90172942/156915134-343e86ed-4914-4ab3-ac7e-067f1f20af70.png)
-
 
 【会員登録済の方】  
 メールアドレス、パスワードを入力しログインする。
