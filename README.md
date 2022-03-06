@@ -49,8 +49,8 @@ $ winpty docker-compose exec app bash
 $ cd userapp/  
 ・マイグレーション実行  
 $ php artisan migrate  
-・phpMyAdminにアクセスし、データベース作成されていることを確認  
-http://127.0.0.1:8080/
+・http://127.0.0.1:8080/
+にアクセスし、データベース作成されていることを確認  
 
 ⑤コンテナの立ち上げ  
 ・上記で作成したリモートリポジトリに移動  
