@@ -88,7 +88,7 @@
 @endsection
 @section('card')
 <div class=data>
-  <h1 class=data-title>会員情報</h1>
+  <h1 class=data-title>ユーザー情報</h1>
   <div>
     <table class=contents>
       <tr>
@@ -107,7 +107,7 @@
   </div>
   <div class=button>
     <form action="/user/edit" method="get">
-      <button>会員情報変更</button>
+      <button>ユーザー情報変更</button>
     </form>
   </div>
 </div>

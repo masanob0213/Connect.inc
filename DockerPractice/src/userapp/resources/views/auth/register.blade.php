@@ -35,7 +35,7 @@
         font-weight: bold;
     }
 
-    .contents-input {
+    input {
         font-size: 18px;
         padding: 5px 0px 5px 10px;
         width: 80%;
@@ -87,7 +87,7 @@
 <form action="{{ route('register') }}" method="POST">
     @csrf
     <div class=data>
-        <h1 class=data-title>会員登録</h1>
+        <h1 class=data-title>ユーザー登録</h1>
         <!-- Validation Errors -->
         <x-auth-validation-errors class="mb-4" :errors="$errors" />
         <div>
@@ -98,7 +98,7 @@
                         名前
                     </td>
                     <td>
-                        <input class=contents-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus />
+                        <input id="name" type="text" name="name" required autofocus />
                     </td>
                 </tr>
                 <!-- Tel -->
@@ -107,7 +107,7 @@
                         電話番号
                     </td>
                     <td>
-                        <input class=contents-input id="tel" class="block mt-1 w-full" type="tel" name="tel" :value="old('tel')" required />
+                        <input id="tel" type="tel" name="tel" required />
                     </td>
                 </tr>
                 <!-- Email Address -->
@@ -116,7 +116,7 @@
                         メールアドレス
                     </td>
                     <td>
-                        <input class=contents-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
+                        <input id="email" type="email" name="email" required />
                     </td>
                 </tr>
                 <!-- Password -->
@@ -125,7 +125,7 @@
                         パスワード
                     </td>
                     <td>
-                        <input class=contents-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="new-password" />
+                        <input id="password" type="password" name="password" required autocomplete="new-password" />
                     </td>
                 </tr>
                 <!-- Confirm Password -->
@@ -134,14 +134,14 @@
                         確認用パスワード
                     </td>
                     <td>
-                        <input class=contents-input id="password_confirmation" class="block mt-1 w-full" type="password" name="password_confirmation" required />
+                        <input id="password_confirmation" type="password" name="password_confirmation" required />
                     </td>
                 </tr>
             </table>
         </div>
         <div class=button>
             <button>
-                会員登録
+                登録
             </button>
         </div>
         <div class="login-button">

@@ -35,7 +35,7 @@
         font-weight: bold;
     }
 
-    .contents-input {
+    input {
         font-size: 18px;
         padding: 5px 0px 5px 10px;
         width: 80%;
@@ -100,7 +100,7 @@
                         メールアドレス
                     </td>
                     <td>
-                        <input class=contents-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
+                        <input id="email" type="email" name="email" :value="old('email')" required autofocus />
                     </td>
                 </tr>
                 <tr>
@@ -109,7 +109,9 @@
                         パスワード
                     </td>
                     <td>
-                        <input class=contents-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password" />
+                        <input class=contents-input id="password" type="password" name="password" required autocomplete="current-password" />
+                        <a href="{{ route('password.request') }}">
+                            {{ __('パスワードを忘れた方') }}
                     </td>
                 </tr>
             </table>

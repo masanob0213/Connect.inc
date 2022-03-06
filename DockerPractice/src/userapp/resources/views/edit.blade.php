@@ -61,27 +61,14 @@
 
   .button {
     text-align: center;
+    margin-top: 30px;
   }
 
   button {
     border-radius: 5px;
-    margin-top: 30px;
-    font-weight: bold;
-    font-size: 20px;
-    color: #1F2937;
-    border: 2px solid #1F2937;
-    background-color: white;
-    padding: 10px 40px;
-    cursor: pointer;
-    transition: 0.4s;
-    white-space: nowrap;
-  }
-
-  .back-button {
-    border-radius: 5px;
     margin-top: 10px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     color: #1F2937;
     border: 2px solid #1F2937;
     background-color: white;
@@ -94,6 +81,17 @@
   button:hover {
     background-color: #1F2937;
     color: white;
+  }
+
+  .back-button {
+    margin-top: 10px;
+  }
+
+  a {
+    color: #1F2937;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
   }
 </style>
 
@@ -108,7 +106,7 @@
 @endsection
 @section('card')
 <div class=date>
-  <h1 class=date-title>会員情報変更</h1>
+  <h1 class=date-title>ユーザー情報変更</h1>
   <div>
     <form action="/user/edit" method="post">
       @csrf
@@ -129,13 +127,14 @@
       </table>
   </div>
   <div class=button>
-    <button>変更する</button>
-    </form>
-    <form action="/user" method="get">
-      @csrf
-      <button class=back-button>戻る</button>
-    </form>
+    <button>変更</button>
+    <div class="back-button">
+      <a href="/user">
+        戻る
+      </a>
+    </div>
   </div>
+  </form>
 </div>
 @endsection
 

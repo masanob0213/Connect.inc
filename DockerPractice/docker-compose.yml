@@ -68,3 +68,12 @@ services:
   volumes:
      - ./docker/phpmyadmin/sessions:/sessions
 
+
+     # ----------------------------------
+  # MailCatcherを動かすコンテナ
+  # ----------------------------------
+ mailcatcher:
+  image: schickling/mailcatcher
+  ports:
+    - 1080:1080
+
