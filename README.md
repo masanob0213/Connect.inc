@@ -67,7 +67,8 @@ gitbash 2.35
 # DEMO
 【初めて利用する方】  
 名前、電話番号、メールアドレス、パスワードを入力し、会員登録する。  
-![register](https://user-images.githubusercontent.com/90172942/156907778-2d0714dc-fde6-4565-b388-5a5d5a7f4adf.png)
+![register](https://user-images.githubusercontent.com/90172942/156915134-343e86ed-4914-4ab3-ac7e-067f1f20af70.png)
+
 
 【会員登録済の方】  
 メールアドレス、パスワードを入力しログインする。
