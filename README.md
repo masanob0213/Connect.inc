@@ -16,14 +16,21 @@ $git clone https://github.com/masanob0213/Connect.inc.git.
 $cd ローカルリポジトリ  
 ```
 ・DockerPracticeディレクトリに移動  
+```
 $ cd DockerPractice  
+```
 ・appコンテナに入る。  
+```
 $ winpty docker-compose exec app bash  
+```
 ・プロジェクトに移動  
+```
 $cd userapp  
+```
 env.sampleから.envを作成  
+```
 $ cp .env.sample .env
-
+```
 ③.envファイルの編集  
 ・上記で作成した.envファイルの11行目あたりを下記に編集。  
 DB_CONNECTION=mysql  
@@ -53,26 +60,41 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 ④マイグレーションの実行  
 ・上記で作成したリモートリポジトリに移動  
+```
 $ cd リモートリポジトリ  
+```
 ・appコンテナに入る。  
+```
 $ winpty docker-compose exec app bash  
+```
 ・laravelプロジェクトに移動  
+```
 $ cd userapp/  
+```
 ・マイグレーション実行  
+```
 $ php artisan migrate  
+```
 ・http://127.0.0.1:8080/
 にアクセスし、データベースが作成されていることを確認  
 
 ⑤コンテナの立ち上げ  
 ・上記で作成したリモートリポジトリに移動  
+```
 $ cd リモートリポジトリ  
+```
 ・DockerPracticeディレクトリに移動  
+```
 $ cd DockerPractice  
+```
 ・イメージ作成  
+```
 $ docker-compose build  
+```
 ・コンテナを起動  
+```
 $ docker-compose up -d  
-
+```
 ⑥動作確認  
 http://localhost/  
 上記にアクセスし、ログイン画面が表示されること  
