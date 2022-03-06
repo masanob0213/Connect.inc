@@ -31,14 +31,14 @@ DB_DATABASE=laravel_db
 DB_USERNAME=laravel_user  
 DB_PASSWORD=laravel_pass   
 ・次に33行目あたりを下記に編集
-MAIL_MAILER=smtp
-MAIL_HOST=mailcatcher
-MAIL_PORT=1025
-MAIL_USERNAME=null
-MAIL_PASSWORD=null
-MAIL_ENCRYPTION=null
-MAIL_FROM_ADDRESS=mailcatcher@example.com
-MAIL_FROM_NAME="${APP_NAME}"
+MAIL_MAILER=smtp  
+MAIL_HOST=mailcatcher  
+MAIL_PORT=1025  
+MAIL_USERNAME=null  
+MAIL_PASSWORD=null  
+MAIL_ENCRYPTION=null  
+MAIL_FROM_ADDRESS=mailcatcher@example.com  
+MAIL_FROM_NAME="${APP_NAME}"  
 
 ④マイグレーションの実行  
 ・上記で作成したリモートリポジトリに移動  
