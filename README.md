@@ -110,27 +110,28 @@ gitbash 2.35
 # DEMO
 【初めて利用する方】  
 名前、電話番号、メールアドレス、パスワードを入力し、会員登録する  
-![register](https://user-images.githubusercontent.com/90172942/156915134-343e86ed-4914-4ab3-ac7e-067f1f20af70.png)
+![register](https://user-images.githubusercontent.com/90172942/157362620-0a2c82a0-cc6d-4305-8673-2168f9bd70ec.png)  
 
 【会員登録済の方】  
 メールアドレス、パスワードを入力しログインする
-![login](https://user-images.githubusercontent.com/90172942/156915193-db78d1f0-5bc5-44db-8681-49e8ee7c96e3.png)
+![login](https://user-images.githubusercontent.com/90172942/157362637-5c342591-0fb6-41a1-9041-bd5cbb0002d7.png)  
 
 ・会員情報の表示  
-![index](https://user-images.githubusercontent.com/90172942/156907822-ed002b9f-a9df-4bb4-9a8a-de609e1afb5a.png)
+![index](https://user-images.githubusercontent.com/90172942/157362661-f3d59e91-9115-47b5-a9d1-6c11d2beec70.png)  
 
 ・会員情報の変更  
-![edit](https://user-images.githubusercontent.com/90172942/156907796-3b8f89d9-9699-4dbc-863e-54fc47ae45a5.png)
+![edit](https://user-images.githubusercontent.com/90172942/157362680-1e1d06f8-1035-4c83-8998-6d05393f8e8f.png)  
 
 【パスワードを忘れた場合】  
 ログイン画面より、「パスワードを忘れた方」をクリック  
-![forgot-password](https://user-images.githubusercontent.com/90172942/156916081-8dea8c10-ca7f-4e62-800f-9ff9320433b7.png)  
+ ![forgot-password](https://user-images.githubusercontent.com/90172942/157362695-7b4837fd-44a5-47eb-bafc-34f3d3ed5f76.png)  
 メールアドレスを入力し、「リンクを送信」をクリック  
 http://localhost:1080/
 にアクセスし、届いたメールの「Reset Password」をクリック  
 ![mailcatcher](https://user-images.githubusercontent.com/90172942/156916212-5da9d6e4-0b36-4241-a47f-523b2e809e71.png)  
 メールアドレスと新しいパスワードを入力し「再設定」をクリック  
-![resetpassword](https://user-images.githubusercontent.com/90172942/156916247-1b4296b0-7626-4d50-b727-684ceb770d08.png)  
+![resetpassword](https://user-images.githubusercontent.com/90172942/157362730-af2beed5-bd3b-4a2c-ba03-793abe71d8dc.png)  
+
 ログイン画面に戻るので、メールアドレスと新たなパスワードでログイン
 # Author
 
