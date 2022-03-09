@@ -120,6 +120,7 @@
                     ログインに戻る
                 </a>
             </div>
+        </div>
     </form>
 </div>
 @endsection

@@ -45,15 +45,14 @@
 <body>
   <div class="all">
     <div class=header>
-      <h1 class=title>Connect inc.</h1>
+      <h1 class=title>User inc.</h1>
       @yield('logout')
     </div>
     <div class="card">
       @yield('card')
-      @csrf
     </div>
     <div>
-      <p class=footer-text>Connect inc.</p>
+      <p class=footer-text>User inc.</p>
     </div>
   </div>
 </body>
