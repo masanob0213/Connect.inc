@@ -1,4 +1,4 @@
-# userApp
+# UserApp
 このアプリケーションは、ユーザー登録することにより使用できます。
 
 # Description
